@@ -1,0 +1,940 @@
+ERROR_COMMAND: '§cОшибка, используйте - %s'
+
+PING: 'Ваш пинг §a%s §rms'
+
+COOLDOWN: '§cПожалуйста, подождите %s перед следующим использованием'
+
+NO_FOUND_PLAYER: '§cОшибка, игрок %s §cне найден'
+NO_NEVER_PLAYED: '§cОшибка, игрок %s никогда прежде не играл на нашем сервере'
+SERVER_NOT_FOUND: '§cОшибка, данный сервер не найден'
+ALREADY_ON_SERVER: '§cОшибка, вы уже находитесь на данном сервере'
+SERVER_TO: 'Вы успешно телепортировались на сервер §e%s'
+
+NO_PERMS_GROUP: '§cОшибка, для использования данной команды вам необходим статус %s §cили выше'
+SUBCOMMAND_HELP: 'Список команд для §e%s§r:'
+
+TIME_DAY_1:
+- 'д'
+- 'ень'
+- 'ня'
+- 'ней'
+TIME_SECOND_1:
+- 'секунд'
+- 'у'
+- 'ы'
+- ''
+TIME_SECOND_2:
+- 'секунд'
+- 'а'
+- 'ы'
+- ''
+TIME_HOURS_1:
+- 'час'
+- ''
+- 'а'
+- 'ов'
+TIME_MINUTES_1:
+- 'минут'
+- 'у'
+- 'ы'
+- ''
+TIME_MINUTES_2:
+- 'минут'
+- 'а'
+- 'ы'
+- ''
+MONEY_1:
+- 'монет'
+- 'а'
+- 'ы'
+- ''
+MONEY_2:
+- 'монет'
+- 'y'
+- 'ы'
+- ''
+BRICK_1:
+- 'бронз'
+- 'а'
+- 'ы'
+- ''
+IRON_1:
+- 'желез'
+- 'о'
+- 'а'
+- 'а'
+GOLD_1:
+- 'золот'
+- 'о'
+- 'а'
+- 'а'
+DIAMOND_1:
+- 'алмаз'
+- ''
+- 'а'
+- 'ов'
+EMERALD_1:
+- 'изумруд'
+- ''
+- 'а'
+- 'ов'
+PLAYERS_1:
+- 'игрок'
+- ''
+- 'а'
+- 'ов'
+
+BEDWARS_LOBBY_HOLO:
+- '%sBedWars'
+- '§rНа режиме играет §a%s §r%s'
+- '%s'
+
+BEDWARS_SOLO_LOBBY_HOLO:
+- '%sBedWars Solo'
+- '§rНа режиме играет §a%s §r%s'
+- '%s'
+
+CLICK_TO_CONNECT: '§7Нажмите, чтобы присоединиться'
+ON_DEVELOPMENT: '§c✕ В разработке!'
+
+ALL_CANT_CONTACT_HIM: '§cОшибка, игрок %s §cотключил личные сообщения'
+YOU_CANT_CONTACT_HIM: '§cОшибка, игрок %s §cигнорирует вас'
+CANT_MESSAGE_YOURSELF: '§cВы не можете написать самому себе'
+CANT_IGNORE_YOURSELF: '§cВы не можете игнорировать самого себя'
+PLAYER_IGNORED: 'Вы добавили игрока %s §rв список игнорируемых'
+PLAYER_NOT_IGNORED: 'Вы убрали игрока %s §rиз списка игнорируемых'
+REPLY_PLAYER_NULL: '§cОшибка, вам еще не писали личных сообщений'
+PLAYERS_UNIGNORED: 'Теперь игроки могут отправлять вам личные сообщения.'
+PLAYERS_IGNORED: 'Теперь игроки не могут отправлять вам личные сообщения.'
+SENT_MESSAGE_FORMAT: ' §eЛС §8| §eЯ §8-> %s §8| §f%s'
+RECIEVED_MESSAGE_FORMAT: ' §eЛС §8| %s §8-> §eЯ §8| §f%s'
+REPLY_HOVER_MESSAGE:
+- '§fНажмите сюда, чтобы еще раз написать'
+- '§fигроку %s §fв лс'
+
+GROUP_HELP:
+  - ' §7/group set <ник игрока> <группа> §f- обновить группу'
+  - ' §7/group migrate <старый ник> <новый ник> §f- перенос группы'
+GROUP_ALREADY_DEFAULT: '§cОшибка, у игрока %s §cнет группы'
+GROUP_MIGRATES_BROADCAST: 'Группа игрока %s §rбыла успешно передана на %s'
+GROUP_CHANGES_BROADCAST: '%s §rизменил группу игрока %s §rна %s'
+GROUP_CHANGE: 'Группа %s §rбыла успешно установлена игроку %s'
+PLAYER_ALREADY_GROUP: '§cОшибка, у игрока %s §cуже имеется данная группа'
+
+CREATIVE: 'Творческий'
+SURVIVAL: 'Выживание'
+ADVENTURE: 'Приключенческий'
+SPECTATOR: 'Наблюдатель'
+
+YOU_CANT_BAN_YOURSELF: 'Ошибка, вы не можете заблокировать самого себя'
+ALREADY_BANNED: '§cОшибка, игрок %s §cуже заблокирован'
+BROADCAST_BAN: '%s §rзаблокировал %s §rна §e%s §rпо причине §e%s'
+BROADCAST_UNBAN: '%s §rразблокировал игрока %s'
+NOT_BANNED: '§cОшибка, игрок %s §cне заблокирован'
+ETERNITY: 'вечность'
+
+HIDER_ENABLE_NAME: '§aПоказать игроков'
+HIDER_ENABLE_LORE:
+- '§7Используйте этот предмет,'
+- '§7чтобы показать игроков'
+HIDER_DISABLE_NAME: '§cСкрыть игроков'
+HIDER_DISABLE_LORE:
+- '§7Используйте этот предмет,'
+- '§7чтобы скрыть игроков'
+
+STAFFCHAT_ENABLED: '%s §rвключил чат персонала'
+STAFFCHAT_DISABLED: '%s §rотключил чат персонала'
+
+CRASH: 'Вы крашнули клиент игрока %s'
+AFK: '§cНе стой на месте!'
+
+HOLO_TOP_PLACE: '§e%s место'
+
+SKIN_RESET_TO: 'Вы удалили скин игрока %s'
+SKIN_RESET: 'Вы удалили свой скин'
+SKIN_ERROR: '§cОшибка, нам не удалось получить скин, сообщите администрации'
+SKIN_UPDATE_TO: 'Вы обновили скин игрока %s'
+SKIN_UPDATE: 'Вы успешно обновили свой скин'
+SKIN_HAS_BEEN_CHANGED: 'Вы изменили свой скин на §e%s'
+SKIN_HAS_BEEN_CHANGED_URL: 'Вы изменили свой скин с помощью §e%s'
+
+FIND_RESULT: '%s §rнаходится на сервере §a%s'
+
+YOU_HAVE_BEEN_SENT: '%s §fтелепортировал вас на сервер §e%s'
+SENDING_PLAYER_TO_SERVER: '%s §fуспешно телепортирован на сервер §e%s'
+
+SKIN_HELP:
+  - ' §7/skin set <ник игрока> §f- установить скин игрока'
+  - ' §7/skin <ник игрока> §f- сокращенная версия /skin set'
+
+BALANCE: 'На вашем аккаунте §e%s §r%s и §6%s §r%s'
+
+SPEED: 'Установлена скорость - §e%s'
+SPEED_TO: 'Игроку %s §rустановлена скорость - §e%s'
+
+FLY_ENABLE: 'Режим полета - §aвключен'
+FLY_DISABLE: 'Режим полета - §cотключен'
+FLY_ENABLE_TO: 'Игроку %s §rрежим полета - §aвключен'
+FLY_DISABLE_TO: 'Игроку %s §rрежим полета - §cотключен'
+
+WARP_GUI_LORE:
+- ''
+- '§7Управление своими'
+- '§7варпами или просмотр публичных'
+- ''
+- '§7Всего варпов: §c%s'
+- ''
+- '§e▸ ЛКМ, чтобы открыть меню публичных варпов'
+- '§e▸ ПКМ, чтобы открыть меню своих варпов'
+
+ALTERNATE_GUI_NAME: 'Меню'
+CREATE_WARP_FORMAT: '/createwarp <название>'
+DEL_WARP_FORMAT: '/delwarp <название>'
+WARP_TO: 'Вы были телепортированы на варп §a%s'
+WARP_CLOSE: '§cОшибка, варп %s §cявляется закрытым'
+WARP_CREATE_ERROR: '§cОшибка, варп %s уже существует'
+WARP_NOT_FOUND: '§cОшибка, варп %s не найден'
+WARP_NOT_YOUR: '§cОшибка, варп %s не предналежит вам'
+WARP_CREATE_NAME_ERROR: '§cОшибка, название варпа не должно превышать 32 символа'
+WARP_CREATE: 'Варп §e%s §rуспешно создан'
+WARP_REMOVED: 'Варп §e%s §rудален'
+WARP_GUI_NAME: 'Список варпов'
+MYWARP_ITEM_CHANGER_NAME: 'Личные варпы'
+
+WARP_ITEM_LORE:
+- ''
+- '§7Владелец: %s'
+- '§7Дата создания: §f%s'
+- '§7Координаты варпа:'
+- ' §7Мир: §e%s'
+- ' §7X: §e%s'
+- ' §7Y: §e%s'
+- ' §7Z: §e%s'
+- ''
+- '§e▸ Нажмите, чтобы телепортироваться'
+
+AUCTION_MAINGUI_NAME: 'Аукцион'
+AUCTION_MYGUI_NAME: 'Ваши предметы'
+AUCTION_PLAYERGUI_NAME: 'Предметы игрока %s'
+AUCTION_TYPEGUI_NAME: 'Выбор категории'
+
+BACK_ITEM_NAME: '§cНазад'
+BACK_ITEM_LORE:
+  - '§7Нажмите, чтобы вернуться на шаг назад'
+
+AUCTION_LORE_MYGUI: 
+  - ''
+  - '§7Цена: §a%s$'
+  - ''
+  - '§7Истекает через:'
+  - ' %s'
+  - ''
+  - '§e▸ ПКМ, чтобы снять с торгов'
+AUCTION_NO_AUCTION: '§cСнят с продажи'
+INVENTORY_IS_FULL: '§cОшибка, ващ инвентарь заполнен'
+AUCTION_REMOVED_ITEM: '§rВы успешно сняли предмет §e%s §rс аукциона'
+AUCTION_NO_ITEMS_NAME: '§cПредметов нет..'
+AUCTION_NO_ITEMS_LORE:
+  - ''
+  - '§7Нам не удалось найти новые'
+  - '§7предметы на аукцион'
+
+AUCTION_SUB_TYPE_LORE:
+  - ''
+  - '§7Отсортировать все предметы'
+  - '§7по типу §a%s'
+  - ''
+  - '§e▸ Нажмите, чтобы выбрать'
+AUCTION_MYGUI_ITEM_NAME: '§aМои товары'
+AUCTION_MYGUI_ITEM_LORE:
+  - ''
+  - '§7Открыть список ваших товаров,'
+  - '§7которые выставленны на торги'
+  - ''
+  - '§e▸ Нажмите, чтобы открыть список'
+AUCTION_CATEGORY_NAME: 'Текущая категория предметов'
+AUCTION_CATEGORY_LORE:
+  - ''
+  - '§7В данный момент выбрана'
+  - '§7категория - §f%s'
+  - ''
+  - '§e▸ Нажмите, чтобы сменить категорию'
+AUCTION_TYPE_ARMOR_NAME: 'Броня'
+AUCTION_TYPE_WEAPON_NAME: 'Оружие'
+AUCTION_TYPE_TOOLS_NAME: 'Инструменты'
+AUCTION_TYPE_FOOD_NAME: 'Еда'
+AUCTION_TYPE_POTION_NAME: 'Зелья'
+AUCTION_TYPE_BLOCKS_NAME: 'Блоки'
+AUCTION_TYPE_ENCHANTING_NAME: 'Зачарования'
+AUCTION_TYPE_RESOURCES_NAME: 'Ресурсы'
+AUCTION_TYPE_FARMING_NAME: 'Растения'
+AUCTION_TYPE_OTHER_NAME: 'Остальное'
+AUCTION_TYPE_ALL_NAME: 'Все'
+AUCTION_LORE_ITEM:
+  - ''
+  - '§7Продавец: %s'
+  - '§7Цена: §e%s$'
+  - ''
+  - '§7Истекает через:'
+  - ' %s'
+  - ''
+  - '§e▸ ЛКМ, чтобы купить'
+  - '§e▸ ПКМ, чтобы открыть товары продавца'
+
+AUCTION_SHOW_ERROR: '§cОшибка, у игрока %s §cнет активных товаров на аукционе'
+AUCTION_LIMIT_ERROR: '§cОшибка, вы превысили лимит активных предметов на аукционе. Ваш текущий лимит %s предметов'
+AUCTION_SELL_AIR: '§cОшибка, вы не можете продавать воздух'
+AUCTION_COMMAND_ERROR: '§cОшибка, цена предмета должна быть числом'
+AUCTION_COMMAND_ERROR_1: '§cОшибка, цена и кол-во предмета не может быть 0'
+AUCTION_COMMAND_ERROR_2: '§cОшибка, кол-во предметов для продажи должна быть числом'
+AUCTION_COMMAND_ERROR_3: '§cОшибка, вы не можете продать данный предмет пока он находится во 2й руке'
+AUCTION_SELL_ERROR: '§cОшибка, в вашей руке недостаточное кол-во предметов'
+AUCTION_SELL: '§rПредмет §e%s §rбыл выложен на продажу за §e%s'
+AUCTION_SELL_FORMAT: '/ah sell <цена> <кол-во>'
+AUCTION_HELP:
+  - ' §7/ah §f- открыть аукцион'
+  - ' §7/ah sell <цена> <кол-во> §f- выставить предмет на аукцион'
+  - ' §7/ah show <ник игрока> §f- посмотреть активные предметы игрока'
+AUCTION_BUY_YOU_ERROR: '§cОшибка, вы не можете купить свой же предмет'
+
+CONFIRMED_NAME: 'Подтвердить'
+CONFIRMED_LORE:
+  - ''
+  - '§7Нажимая на этот предмет, вы'
+  - '§7подтверждаете свои действия'
+  - ''
+  - '§8Это действия нельзя отменить'
+CANCEL_NAME: 'Отменить'
+CANCEL_LORE:
+  - ''
+  - '§7Нажимая на этот предмет, вы'
+  - '§7отменяете свои действия'
+
+KIT_NOT_FOUND: '§cОшибка, набор %s не найден'
+KIT_SELECT: 'Вы выбрали набор §a%s'
+
+HOME_NOT_FOUND: '§cОшибка, точка дома %s не найдена'
+HOME_TO: 'Вы были телепортированы на точку дома §e%s'
+HOME_REMOVE: 'Точка дома §a%s §fудалена'
+HOME_WARP_LIMIT: '§cОшибка, вы не можете создать более %s %s'
+HOME_ERROR: '§cОшибка, у вас уже есть точка дома с именем %s'
+HOME_EMPTY: '§cОшибка, у вас нет установленных точек дома'
+HOME_GUI_NAME: 'Точки дома'
+HOME_CREATE: 'Точка дома §e%s §fустановлена'
+DELHOME_FORMAT: '/delhome <название дома>'
+SETHOME_FORMAT: '/sethome <название дома>'
+HOME_ITEM_EMPTY_NAME: '§cТочки дома не найдены..'
+HOME_ITEM_EMPTY_LORE:
+- ''
+- '§7В данный момент у вас нет'
+- '§7точек дома'
+HOME_LORE:
+- ''
+- '§7Координаты дома:'
+- ' §7Мир: §e%s'
+- ' §7X: §e%s'
+- ' §7Y: §e%s'
+- ' §7Z: §e%s'
+- ''
+- '§e▸ Нажмите, чтобы телепортироваться'
+
+HOMES_1:
+- 'дом'
+- 'а'
+- 'ов'
+- 'ов'
+HOMES_2:
+- 'дом'
+- ''
+- 'а'
+- 'ов'
+
+WARPS_1:
+- 'варп'
+- 'а'
+- 'ов'
+- 'ов'
+
+NAME_IS_INVALID: '§cОшибка, в нике содержатся недопустимые символ'
+ITEMDB_ERROR: '§cОшибка, информация о данном предмете не найдена'
+ITEMDB: 'Предмет §e%s §7(%s)'
+NEAR_NOT_FOUND: 'Ближайших игроков нет..'
+NEAR: 'Ближайшие игроки: %s'
+RECIPE_FORMAT: '/recipe <ид предмета>'
+INVALID_ITEM_RECIPE: '§cОшибка, рецепт не найден'
+RECIPE_FURNACE: ''
+RECIPE_LIST_VIEW: ''
+
+BACK: 'Телепортация на предыдущую локацию'
+CALL_FORMAT: '/call <ник игрока>'
+CALL_GUI_NAME: 'Запросы на тп'
+CALL_ERROR_YOU: '§cОшибка, вы не можете отправлять запрос на телепортацию самому себе'
+CALL_ERROR: '§cОшибка, вы не можете отправлять запрос данному игроку'
+CALL_INVITE_1: ' %s §rзапрос телепортацию к вам'
+CALL_INVITE_2: ' §rДля принятия запроса, пишите §e'
+CALL_INVITE_3: ' §rДля отмены запроса, пишите §e'
+CALL_INVITE_4: ' §rУ вас есть §e2 минуты§r, чтобы принять'
+CALL: 'Запрос на телепортацию отправлен игроку %s'
+S_FORMAT: '/s <ник игрока>'
+SPAWN: 'Телепортация на спавн...'
+SPAWN_TO: 'Игрок %s §rтелепортирован на спавн'
+TPTOGGLE: '%s §rотключил все запросы на телепортацию'
+TPACCEPT_SENDER: 'Вы приняли запрос от игрока %s'
+TPACCEPT_WHO: '%s §rпринял ваш запрос на телепортацию'
+TPACCEPT_ERROR: '§cОшибка, у вас нет ожидающих заявок'
+TPACCEPT_ERROR_PLAYER: '§cОшибка, у вас нет ожидающих заявок от %s'
+TPCHUNK_FORMAT: '/tpchunk <x> <y>'
+TPPOS_ERROR: '§cОшибка, используйте только цифры'
+TPPOS_ERROR_BORDER: '§cОшибка, локация находится за пределами границы мира'
+TPPOS: 'Телепортация на координаты %s'
+TP_FORMAT: '/tp <ник игрока>'
+TELEPORT: 'Вы телепортированы к игроку %s'
+TELEPORT_TO: 'Игрок %s §rтелепортирован к игроку %s'
+TPDENY: 'Вы отклонили запрос на телепортацию от игрока %s'
+TPDENY_YOU: 'Игрок %s §rотклонил ваш запрос на телепортацию'
+TPTOGGLE_ENABLE: 'Телепортации - §aвключены'
+TPTOGGLE_DISABLE: 'Телепортации - §cотключены'
+
+PTIME_RESET: 'Время и погода сброшены до серверного'
+PTIME: 'Вы изменили время на §e%s'
+
+WARP_ITEM_EMPTY_NAME: '§cНа сервере нет активных варпов'
+WARP_ITEM_EMPTY_LORE:
+- '§7В данный момент на сервере'
+- '§7нет доступных публичных варпов'
+MYWARP_ITEM_EMPTY_NAME: '§cУ вас нет личных варпов'
+MYWARP_ITEM_EMPTY_LORE:
+- '§7В данный момент у вас нет'
+- '§7личных варпов'
+PLAYER_WARP_ITEM_EMPTY_NAME: '§cВарпы игрока не найдены'
+PLAYER_WARP_ITEM_EMPTY_LORE:
+- '§7В данный момент у игрока %s'
+- '§7нет доступных публичных варпов'
+- '§7или они отсутствуют вовсе'
+PLAYER_WARP_FORMAT: '/playerwarp <имя игрока>'
+PLAYER_WARP_GUI_NAME: 'Список варпов - %s'
+
+GAMEMODE: 'Установлен режим - §e%s'
+GAMEMODE_TO: 'Игроку %s §rустановлен режим - §e%s'
+GAMEMODE_FORMAT: '/gamemode <0/1/2>'
+
+PAGE_ARROW1: '§aСледующая страница'
+PAGE_ARROW2: '§aПредыдущая страница'
+PAGE_ARROW_LORE:
+- '§7Нажмите для перехода'
+- '§7на %s страницу'
+
+ITEMS_LOBBY_SELECTOR_NAME: '§eИгровые режими'
+ITEMS_LOBBY_SELECTOR_LORE:
+  - '§7Используйте этот предмет, чтобы'
+  - '§7передвигаться между серверами'
+ITEMS_LOBBY_GADGETS_NAME: '§eГаджеты'
+ITEMS_LOBBY_GADGETS_LORE:
+  - '§7Различная косметика для'
+  - '§7развлечения в лобби'
+ITEMS_LOBBY_PROFILE_NAME: '§eПрофиль игрока'
+ITEMS_LOBBY_PROFILE_LORE:
+  - '§7Полезная информация'
+  - '§7о вашем аккаунте'
+
+MYWARP_ITEM_CHANGER_LORE:
+- ''
+- '§7Показать список личных варпов'
+- ''
+- '§e▸ Нажмите, чтобы переключиться'
+WARP_ITEM_CHANGER_NAME: 'Публичные варпы'
+WARP_ITEM_CHANGER_LORE:
+- ''
+- '§7Показать список публичных варпов'
+- ''
+- '§e▸ Нажмите, чтобы переключиться'
+
+KIT_DEFAULT_LORE:
+- ''
+- '§8В наборе содержатся предметы:'
+
+NO_PERMS_KIT_ONLY:
+- ''
+- '§cУ вас нет прав на этот набор,'
+- '§cон доступен только для %s'
+NO_PERMS_KIT:
+- ''
+- '§cУ вас нет прав на этот набор'
+- '§cкупите %s§c или выше'
+KIT_LORE_ENABLE:
+- ''
+- '§e▸ Нажмите, чтобы выбрать набор'
+KIT_LORE_DISABLE:
+- ''
+- '§cНабор будет доступен через'
+- '§c%s'
+KIT_GUI_NAME: 'Выбор набора'
+
+BANINFO_BAN_MESSAGES:
+- '§rДанные о наказаниях %s§r:'
+- ' §8• §rЗаблокировал: %s'
+- ' §8• §fПричина: §a%s'
+- ' §8• §fВремя: §a%s'
+- ' §8• §fДата блокировки: §a%s'
+
+FRIEND_ACCEPT_FORMAT: '/friend accept <ник игрока>'
+FRIEND_ADD_FORMAT: '/friend add <ник игрока>'
+FRIEND_HELP:
+  - ' §7/friend add <ник игрока> §f- добавить игрока в друзья'
+  - ' §7/friend remove <ник игрока> §f- удалить игрока из друзей'
+  - ' §7/friend accept <ник игрока> §f- принять запрос от игрока'
+  - ' §7/friend requests §f- список всех запросов'
+FRIEND_REQUESTS_EMPTY: '§cК сожалению, пока Вам никто не присылал запросов в друзья ;c'
+FRIEND_DONT_HAVE_INVITES_FROM: '§cОшибка, у вас нет запросов в друзья от игрока %s'
+FRIEND_REQUESTS: '§rАктивные заявки в друзья:'
+FRIEND_YOURSELF_AS_FRIEND: '§cОшибка, вы не можете отправить заявку в друзья самому себе'
+FRIEND_ALREADY_FRIENDS: '§cОшибка, вы уже являетесь друзьями с %s'
+FRIEND_YOU_ACCEPTED_REQUEST: 'Вы приняли запрос в друзья от игрока %s'
+FRIEND_ACCEPTED_REQUEST: 'Поздравляем! Вы успешно стали друзьями с %s'
+FRIEND_INVITE_SENT: 'Вы отправили запрос в друзья игроку %s'
+FRIEND_INVITE_TEXT: 'Игрок %s §fотправил Вам запрос в друзья'
+
+GIVEMONEY: '§eМодерация §8| %s §rначислил на аккаунт %s §7- %s §r%s'
+
+DONATECHAT_FORMAT: '§6Чат донатеров §8| §r%s §8» §7%s'
+STAFFCHAT_FORMAT: '§cЧат персонала §8 §r%s §8» §f%s'
+
+BOARD_GROUP: 'Статус'
+BOARD_MONEY: 'Монет'
+BOARD_GOLD: 'Золота'
+BOARD_VK: 'Группа VK: '
+BOARD_URLS: 'Полезные ссылки'
+BOARD_SITE: 'Магазин'
+BOARD_BUSTER: 'Активные бустеры'
+BOARD_NO_BUSTER: 'Не найдено..'
+BOARD_LEVEL: 'Уровень'
+BOARD_PLAYERS: 'Игроков'
+BOARD_FOR_START: 'Для старта нужно'
+BOARD_WAIT: 'Ожидание игроков'
+BOARD_MAPS: 'Карта'
+BOARD_SERVER: 'Сервер'
+BOARD_TO_START: 'Начало через'
+BOARD_TEAMS: 'Команды'
+BOARD_OUR_TEAM: 'Ваша команда'
+BOARD_COLOR: 'Цвет'
+BOARD_BED: 'Кровать'
+BOARD_UPGRADE: 'Улучшений'
+BOARD_KILLS: 'Убийств'
+BOARD_BREAK_BEDS: 'Сломано кроватей'
+BOARD_SPECTATOR: 'Наблюдателей'
+
+START_GAME_ARENA: '§fИгра начнется через §e%s §f%s'
+JOIN_GAMER_ARENA: '%s§f зашел в игру (§e%s§f/§e%s§f)'
+QUIT_GAMER_ARENA: '%s§f покинул игру (§c%s§f/§e%s§f)'
+ERROR_START_GAMER_ARENA: '§cОшибка, не хватает игроков для старта'
+
+SPECTATOR_CAMERA_OFF: '§cВы покинули режим наблюдателя'
+SPECTATOR_CAMERA_TITLE: '§eРежим наблюдения'
+SPECTATOR_CAMERA_SUBTITLE: 'Наблюдаем за игроком: %s'
+SPECTATOR_CAMERA_ACTIONBAR: '§fНажмите §eSHIFT §fчтобы покинуть режим наблюдателя'
+SPECTATOR_SETTINGS_GUI_NAME: 'Настройки наблюдателя'
+SPECTATOR_SETTINGS_SPEED: 'Скорость'
+SPECTATOR_SETTINGS_NO_SPEED: 'Без скорости'
+SPECTATOR_SETTINGS_FLY_ON: '§aВключить постоянный полет'
+SPECTATOR_SETTINGS_FLY_OFF: '§cВыключить постоянный полет'
+SPECTATOR_SETTINGS_VISION_OFF: '§cВыключить ночное видение'
+SPECTATOR_SETTINGS_VISION_ON: '§aВключить ночное видение'
+SPECTATOR_SETTINGS_HIDE: '§cСкрыть наблюдателей'
+SPECTATOR_SETTINGS_SHOW: '§aПоказать наблюдателей'
+
+SPECTATOR_TEAM_LORE: '§7Команда: %s'
+SPECTATOR_KILLS_LORE: '§7Убийств: §c%s'
+SPECTATOR_MAIN_LORE:
+- '§7Здоровье: §e%s'
+- '§7Голод: §e%s'
+- ''
+- '§e▸ ЛКМ, чтобы телепортироваться'
+- '§e▸ ПКМ, чтобы наблюдать от 1-ого лица'
+
+SPECTATOR_MENU_NAME: 'Телепортер'
+
+SELECTOR_TEAM_NAME_INV: 'Выбор команды: %s'
+SELECTOR_TEAM_PLAYERS: '§7Игроки:'
+SELECTOR_TEAM_NO_PLAYERS: '§7Нет игроков...'
+
+PLAYER_LEFT: '§rИгрок %s §rпокинул игру'
+
+TEAM_ITEM_NAME: '§eВыбор команды'
+TEAM_ITEM_LORE:
+- '§7Используйте этот предмет,'
+- '§7чтобы выбрать свою команду'
+HUB_ITEM_NAME: '§eВыход'
+HUB_ITEM_LORE:
+- '§7Используйте этот предмет,'
+- '§7чтобы покинуть арену'
+SPECTATOR_MENU_ITEM_NAME: '§eТелепортер'
+SPECTATOR_MENU_ITEM_LORE:
+  - '§7Используйте этот предмет,'
+  - '§7чтобы наблюдать за игроками'
+SPECTATOR_SETTINGS_ITEM_NAME: '§eНастройки наблюдателя'
+SPECTATOR_SETTINGS_ITEM_LORE:
+  - '§7Используйте этот предмет,'
+  - '§7чтобы изменить настройки'
+  - '§7наблюдателя'
+
+LOBBY_SETTINGS_FLY_NAME: 'Полет'
+LOBBY_SETTINGS_FLY_LORE:
+- '§7Позволяет включить или выключить'
+- '§7полет в главном лобби и в лобби'
+- '§7ожидания старта игры'
+LOBBY_SETTINGS_HIDER_NAME: 'Скрытие игроков'
+LOBBY_SETTINGS_HIDER_LORE:
+- '§7Позволяет включить или выключить'
+- '§7скрытие игроков в лобби'
+LOBBY_SETTINGS_CHAT_NAME: 'Чат'
+LOBBY_SETTINGS_CHAT_LORE:
+- '§7Позволяет включить или выключить'
+- '§7возможность писать или читать чат'
+LOBBY_SETTINGS_BOARD_NAME: 'Скорборд'
+LOBBY_SETTINGS_BOARD_LORE:
+- '§7Позволяет включить или выключить'
+- '§7отображение скорбордов справа'
+- '§7во всех лобби'
+LOBBY_SETTINGS_PRIVATE_MESSAGE_NAME: 'Личные сообщения'
+LOBBY_SETTINGS_PRIVATE_MESSAGE_LORE:
+- '§7Позволяет включить или выключить'
+- '§7личные сообщения'
+LOBBY_SETTINGS_DONATE_CHAT_NAME: 'Чат донатеров'
+LOBBY_SETTINGS_DONATE_CHAT_LORE:
+- '§7Позволяет включить или выключить'
+- '§7чат донатеров'
+LOBBY_SETTINGS_UNAVAILABLE:
+- ''
+- '§7Доступно от %s §7и выше'
+
+GAMEMENU_ITEM_UPDATE_NAME: '§lОбновлено!'
+GAMEMENU_ITEM_NEW_NAME: '§lНовый!'
+
+PROFILE_MAIN_ITEM_SETTINGS_NAME: 'Настройки'
+
+PROFILE_MAIN_ITEM_LEVEL_NAME: 'Уровень'
+PROFILE_MAIN_ITEM_LEVEL_LORE:
+- '§7Играя на сервере, вы получаете'
+- '§7игровой опыт, который необходим'
+- '§7для поднятия вашего уровня'
+- '§7и получения особых наград.'
+- ''
+- '§7Уровень: §d%s %s §6%s'
+- ''
+- '§7До следующего уровня: §a%s XP'
+- ''
+- '§e▸ Открыть меню наград'
+
+LEVEL_REWARD_NAME: 'Награда за %s уровень'
+LEVEL_REWARD_LORE:
+  - '§7Награды за достижение §f%s §7уровня:'
+
+LEVEL_NO_LEVEL: '§cОшибка, у вас недостаточно уровней!'
+LEVEL_ALREADY_GIVE: '§cОшибка, вы уже получили данную награду!'
+LEVEL_NO_OTHER_REWARD: '§cОшибка, перед получением этой награды вы должны получить предыдущие!'
+
+LEVEL_REWARD_LORE2:
+  - ''
+  - '§e▸ Нажмите, чтобы получить награду'
+
+CLICK_TO_OPEN:
+- '§eНажмите, чтобы открыть'
+ITEMS_LOBBY_ENABLE_LORE:
+- '§7Нажмите, чтобы отключить'
+ITEMS_LOBBY_DISABLE_LORE:
+- '§7Нажмите, чтобы включить'
+
+ENABLE: 'Включено'
+DISABLE: 'Отключено'
+
+KEY_BOX: '%sУ вас %s %s'
+BOX_NAME: 'Мистический сундук'
+BOX_SUB_NAME: '§7Нажмите, чтобы открыть'
+BOX_NO_KEY: '§cУ вас нет ключей'
+BOX_WINNER: '§fВы выиграли %s§r предмет %s'
+BOX_WINNER_OTHER: '%s §rвыиграл %s§r предмет %s'
+BOX_MONEY: '§eМонеты §f(§e+%s§f)'
+BOX_GOLD: '§6Золото §f(§6+%s§f)'
+BOX_KEYS: '§dКлючи §f(§d+%s§f)'
+BOX_WORK: 'Подождите.. Сундук уже открыт кем-то'
+
+GROUP: 'Статус'
+GROUP_ALREADY_HAVE: '§rУ вас уже есть данная группа, поэтому вы получили §e%s %s'
+
+GAME_KEY: '§eИгровой ключ'
+GAME_KEY_LORE:
+- ''
+- '§7Использзуется для получения'
+- '§7разных наборов и умений на играх'
+- ''
+
+GAME_COSMETIC_KEY: '§eКосметически-игровой ключ'
+GAME_COSMETIC_KEY_LORE:
+- ''
+- '§7Используется для получения'
+- '§7косметических эффектов стрел и убийств'
+- ''
+
+GROUP_KEY: '§bДонатный ключ'
+GROUP_KEY_LORE:
+  - ''
+  - '§7Используется для получения'
+  - '§7бесплатного статуса от §a§lVIP §7до §3§lDROPPER'
+  - ''
+GOLD_KEY: '§6Золотой ключ'
+GOLD_KEY_LORE:
+  - ''
+  - '§7Используется для получения'
+  - '§7золота от §61 §7до §6150'
+  - ''
+MONEY_KEY: '§eМонетный ключ'
+MONEY_KEY_LORE:
+  - ''
+  - '§7Используется для получения'
+  - '§7монет от §e200 §7до §e15,000'
+  - ''
+
+BOX_GUI_NAME: 'Открытие кейсов'
+BOX_OPEN_YOU: '§rВы начали открывать кейс..'
+
+BOX_BUY_MONEY: '§eПокупка за монеты'
+BOX_BUY_GOLD: '§6Покупка за золото'
+BOX_SHOP_GUI_NAME: 'Покупка ключей'
+BOX_BUY_LORE:
+- '§7Купить %s %s за %s %s'
+- ''
+- '§e▸ Нажмите, чтобы купить'
+BOX_BUY_LORE_MAIN:
+  - ''
+  - '§7Купить %s %s §8§l↓'
+BOX_NO_BUY_LORE:
+  - ''
+  - '§7Простите, но вы не можете'
+  - '§7купить ключи данным способом'
+BOX_DONT_BALANCE_LORE:
+  - ''
+  - '§7Простите, но у вас'
+  - '§7недостаточно средств'
+
+NONE: 'Без редкости'
+COMMON: 'Обычный'
+RARE: 'Редкий'
+EPIC: 'Эпический'
+LEGENDARY: 'Легендарный'
+
+LVL_UP: '§a§l§kX§r §e§lУРОВЕНЬ ПОВЫШЕН §a§l§kX§r'
+NEW_LVL: '§rВы достигли §d%s §rуровня!'
+EXP_TO_NEW_LVL: '§rДо следующего уровня нужно §a%s §rопыта'
+
+RARITY: 'Редкость'
+
+GADGETS_MAIN_GUI_NAME: 'Косметика'
+GADGETS_NOT_ACTIVATED: '§cНе выбрано'
+GADGETS_GUI_HAT_NAME: 'Шляпы'
+GADGETS_GUI_HAT_LORE:
+- ''
+- '§7Тут вы можете лучшие шляпы'
+- '§7из гардероба Ластика! Нет, нет,'
+- '§7достать кролика из шляпы вы'
+- '§7не сможете.'
+- ''
+- '§7Открыто: §a%s/%s §6%s'
+- '§7Активированная шляпа:'
+- '%s'
+- ''
+- '§e▸ Нажмите, чтобы открыть меню'
+GADGETS_GUI_EFFECT_NAME: 'Эффекты'
+GADGETS_GUI_EFFECT_LORE:
+- ''
+- '§7Хотите быть эффектным во всех смыслах'
+- '§7этого слова? Пожалуйста, вам сюда!'
+- ''
+- '§7Открыто: §a%s/%s §6%s'
+- '§7Активированный эффект:'
+- '%s'
+- ''
+- '§e▸ Нажмите, чтобы открыть меню'
+GADGETS_GUI_BANNERS_NAME: 'Баннеры'
+GADGETS_GUI_BANNERS_LORE:
+- ''
+- '§7Различные флаги и красивые картинки'
+- '§7которые вы можете одеть в качестве'
+- '§7головного убора.'
+- ''
+- '§7Открыто: §a%s/%s §6%s'
+- '§7Активированный баннер:'
+- '%s'
+- ''
+- '§e▸ Нажмите, чтобы открыть меню'
+GADGETS_GUI_SPIRITS_NAME: 'Духи'
+GADGETS_GUI_SPIRITS_LORE:
+- ''
+- '§7Ваш верный товарищ, который'
+- '§7будет ходить с вами, пока вы живы.'
+- '§7Почувствуй себя Королём Шаманов!'
+- ''
+- '§7Открыто: §a%s/%s §6%s'
+- '§7Активированный дух:'
+- '%s'
+- ''
+- '§e▸ Нажмите, чтобы открыть меню'
+
+GADGETS_CAN_AVAILABLE: 'Можно получить:'
+GADGETS_GIVE_GOLD: '§7Цена: §6%s золота'
+GADGETS_GIVE_MONEY: '§7Цена: §e%s монет'
+GADGETS_GIVE_BOX: '§7Выпадает из §bМистического сундука §7(%s§7)'
+GADGETS_GUI_HATS_NAME: 'Шляпы'
+
+GADGETS_DELETED_GUI_NAME: 'Отключение гаджетов'
+GADGETS_DELETED_GUI_LORE:
+- ''
+- '§7Список активных гаджетов:'
+
+GADGETS_ITEM_0_NAME: 'Лаки блок'
+GADGETS_ITEM_0_LORE: 
+- '§7Хм.. Что же с меня выпадет?'
+
+GADGETS_ITEM_11_NAME: 'Мунов'
+GADGETS_ITEM_11_LORE:
+- '§7Иван Мунов: Я алигарх тваей самки'
+
+BOX_GUI_LORE:
+  - '§7Доступных ключей: §e%s'
+  - ''
+  - '§e▸ ЛКМ, чтобы открыть кейс'
+  - '§e▸ ПКМ, чтобы купить ключи'
+
+KEYS_1:
+  - 'ключ'
+  - ''
+  - 'а'
+  - 'ей'
+
+HOLO_SHOP_NPC:
+  - '§eМагазин'
+  - '§rНажмите, чтобы открыть'
+
+CLICK_TO_BUY: '§e▸ Нажмите, чтобы купить'
+CLICK_TO_BUY_ERROR: '§cУ вас недостаточно ресурсов'
+
+GENERATOR_NAME: 'Генератор'
+GENERATOR_BREAK: 'Сломан'
+GENERATOR_TO_SPAWN: '§rСпавн через §e%s §r%s'
+GENERATOR_SPAWNED: '§rЗаспавнено!'
+
+DEATH_MSG_TITLE: '§cВы погибли'
+RESPAWN_TITLE: '§aВы возродились'
+RESPAWN_SUBTITLE: '§7Вы возродитесь через §c%s §7%s'
+
+BW_SHOP_GUI_NAME: 'Магазин'
+BW_SHOP_BLOCKS_GUI_NAME: 'Блоки'
+BW_SHOP_ARMORS_GUI_NAME: 'Броня'
+BW_SHOP_TOOLS_GUI_NAME: 'Инструменты'
+BW_SHOP_WEAPON_GUI_NAME: 'Оружие'
+BW_SHOP_BOW_GUI_NAME: 'Луки'
+BW_SHOP_FOOD_GUI_NAME: 'Еда'
+
+WOOL: 'Шерсть'
+PLANKS: 'Доски'
+STAINED_GLASS: 'Стекло'
+STICK: 'Палка'
+STAINED_CLAY: 'Керамика'
+OBSIDIAN: 'Обсидиан'
+SANDSTONE: 'Песчаник'
+ENDER_STONE: 'Камень края'
+WEB: 'Паутина'
+LADDER: 'Лестница'
+CHEST: 'Сундук'
+CHAINMAIL_CHESTPLATE: 'Кольчужный нагрудник'
+LEATHER_HELMET: 'Кожаный шлем'
+LEATHER_CHESTPLATE: 'Кожаный нагрудник'
+LEATHER_LEGGINS: 'Кожаные штаны'
+LEATHER_BOOTS: 'Кожаные ботинки'
+WOOD_PICKAXE: 'Деревянная кирка'
+STONE_PICKAXE: 'Каменная кирка'
+IRON_PICKAXE: 'Железная кирка'
+DIAMOND_PICKAXE: 'Алмазная кирка'
+FISHING_ROD: 'Удочка'
+WOOD_SWORD: 'Каменный меч'
+GOLD_SWORD: 'Золотой меч'
+IRON_SWORD: 'Железный меч'
+BOW: 'Лук'
+ARROW: 'Стрела'
+BREAD: 'Хлеб'
+COOKED_PORKCHOP: 'Свинина'
+GOLDEN_APPLE: 'Золотое яблоко'
+CAKE: 'Торт'
+SPEED_POTION: 'Зелье скорости'
+
+PROTECTION_ENVIRONMENTAL: 'Защита'
+DURABILITY: 'Прочность'
+DIG_SPEED: 'Эффективность'
+DAMAGE_ALL: 'Острота'
+KNOCKBACK: 'Отдача'
+ARROW_DAMAGE: 'Сила'
+ARROW_KNOCKBACK: 'Откидывание'
+
+BW_SHOP_BLOCKS_NAME: '§eБлоки'
+BW_SHOP_BLOCKS_LORE:
+- ''
+- '§8Можно приобрести:'
+- ' §8▪ §7Песчаник §8x8'
+- ' §8▪ §7Камень края §8x4'
+- ' §8▪ §7Паутина §8x2'
+- ' §8▪ §7Лестница §8x8'
+- ' §8▪ §7Сундук §8x1'
+- ''
+BW_SHOP_ARMORS_NAME: '§eБроня'
+BW_SHOP_ARMORS_LORE:
+- ''
+- '§8Можно приобрести:'
+- ' §8▪ §7Кольчужный нагрудник I §8x1'
+- ' §8▪ §7Кольчужный нагрудник II §8x1'
+- ' §8▪ §7Кольчужный нагрудник III §8x1'
+- ''
+BW_SHOP_TOOLS_NAME: '§eИнструменты'
+BW_SHOP_TOOLS_LORE:
+- ''
+- '§8Можно приобрести:'
+- ' §8▪ §7Деревянная кирка §8x1'
+- ' §8▪ §7Каменная кирка §8x1'
+- ' §8▪ §7Железная кирка §8x1'
+- ' §8▪ §7Алмазная кирка §8x1'
+- ' §8▪ §7Удочка §8x1'
+- ''
+BW_SHOP_WEAPON_NAME: '§eОружие'
+BW_SHOP_WEAPON_LORE:
+- ''
+- '§8Можно приобрести:'
+- ' §8▪ §7Палка §8x1'
+- ' §8▪ §7Деревянный меч §8x1'
+- ' §8▪ §7Золотой меч I §8x1'
+- ' §8▪ §7Золотой меч II §8x1'
+- ' §8▪ §7Железный меч §8x1'
+- ''
+BW_SHOP_BOW_NAME: '§eЛуки'
+BW_SHOP_BOW_LORE:
+  - ''
+  - '§8Можно приобрести:'
+  - ' §8▪ §7Лук §8x1'
+  - ' §8▪ §7Лук II §8x1'
+  - ' §8▪ §7Лук III §8x1'
+  - ' §8▪ §7Стрела §8x5'
+  - ''
+BW_SHOP_FOOD_NAME: '§eЕда'
+BW_SHOP_FOOD_LORE:
+  - ''
+  - '§8Можно приобрести:'
+  - ' §8▪ §7Хлеб §8x4'
+  - ' §8▪ §7Свинина §8x3'
+  - ' §8▪ §7Золотое яблоко §8x1'
+  - ' §8▪ §7Торт §8x1'
+  - ' §8▪ §7Зелье скорости §8x1'
+  - ''
+BW_SHOP_ITEM_ENCHANT_LORE:
+- ''
+- '§8Зачары:'
+BW_SHOP_ITEM_LORE:
+- ''
+- '§7Цена покупки: %s'
+- ''
